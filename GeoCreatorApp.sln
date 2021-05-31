@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCreator", "GeoCreator\GeoCreator.csproj", "{B964B7AD-964A-4998-ACE3-DF215BDAE0EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLibs", "GeoLibs\GeoLibs.csproj", "{84FF7130-1BF6-421E-955B-D7E97F1D5D5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoLibs", "GeoLibs\GeoLibs.csproj", "{84FF7130-1BF6-421E-955B-D7E97F1D5D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibsTests", "LibsTests\LibsTests.csproj", "{6390D87E-08D6-453C-8066-E5EE61EA2F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{84FF7130-1BF6-421E-955B-D7E97F1D5D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84FF7130-1BF6-421E-955B-D7E97F1D5D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84FF7130-1BF6-421E-955B-D7E97F1D5D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6390D87E-08D6-453C-8066-E5EE61EA2F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6390D87E-08D6-453C-8066-E5EE61EA2F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6390D87E-08D6-453C-8066-E5EE61EA2F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6390D87E-08D6-453C-8066-E5EE61EA2F20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
